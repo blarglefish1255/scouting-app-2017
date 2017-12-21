@@ -9,9 +9,9 @@ import { TheBlueAllianceServiceProvider } from '../../providers/the-blue-allianc
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController, public http: Http, 
+  constructor(public navCtrl: NavController, public http: Http,
     public theBlueAllianceAPI: TheBlueAllianceServiceProvider) {
 
   }
-  
+
 }
