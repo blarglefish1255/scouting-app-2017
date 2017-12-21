@@ -8,11 +8,16 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { TheBlueAllianceServiceProvider } from '../providers/the-blue-alliance-service/the-blue-alliance-service';
+import { ScoutingPage } from '../pages/scouting/scouting';
+import { ResearchPage } from '../pages/research/research';
+
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    ScoutingPage,
+    ResearchPage
   ],
   imports: [
     BrowserModule,
@@ -22,7 +27,9 @@ import { TheBlueAllianceServiceProvider } from '../providers/the-blue-alliance-s
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    ScoutingPage,
+    ResearchPage
   ],
   providers: [
     StatusBar,
