@@ -18,7 +18,8 @@ import { FloorScoutingPage } from '../pages/floor-scouting/floor-scouting'
     MyApp,
     TabsPage,
     GameScoutingPage,
-    ResearchPage
+    ResearchPage,
+    FloorScoutingPage
   ],
   imports: [
     BrowserModule,
