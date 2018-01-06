@@ -2,13 +2,12 @@ import { Component } from '@angular/core'
 import { NavController } from 'ionic-angular'
 
 @Component({
-  selector: 'page-scouting',
-  templateUrl: 'scouting.html'
+  selector: 'page-floor-scouting',
+  templateUrl: 'floor-scouting.html'
 })
-export class ScoutingPage {
+export class FloorScoutingPage {
 
   constructor(public navCtrl: NavController) {
 
   }
 }
-

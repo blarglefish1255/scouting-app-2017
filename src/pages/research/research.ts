@@ -1,5 +1,6 @@
 import { Component } from '@angular/core'
 import { NavController } from 'ionic-angular'
+import { TheBlueAllianceServiceProvider} from '../../providers/the-blue-alliance-service/the-blue-alliance-service'
 
 @Component({
   selector: 'page-research',
@@ -7,8 +8,13 @@ import { NavController } from 'ionic-angular'
 })
 export class ResearchPage {
 
-  constructor(public navCtrl: NavController) {
+  private list
 
+  constructor(public navCtrl: NavController, private tba: TheBlueAllianceServiceProvider) {
+    this.list = this.tba.getTeamList(0).subscribe(teams => {
+      this.list = teams
+    })
+    console.log(this.list);
   }
 }
 
