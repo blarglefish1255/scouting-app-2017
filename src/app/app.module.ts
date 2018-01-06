@@ -8,15 +8,16 @@ import { StatusBar } from '@ionic-native/status-bar'
 import { MyApp } from './app.component'
 import { TabsPage } from '../pages/tabs/tabs'
 import { TheBlueAllianceServiceProvider } from '../providers/the-blue-alliance-service/the-blue-alliance-service'
-import { ScoutingPage } from '../pages/scouting/scouting'
+import { GameScoutingPage } from '../pages/game-scouting/game-scouting'
 import { ResearchPage } from '../pages/research/research'
+import { FloorScoutingPage } from '../pages/floor-scouting/floor-scouting'
 
 
 @NgModule({
   declarations: [
     MyApp,
     TabsPage,
-    ScoutingPage,
+    GameScoutingPage,
     ResearchPage
   ],
   imports: [
@@ -28,8 +29,9 @@ import { ResearchPage } from '../pages/research/research'
   entryComponents: [
     MyApp,
     TabsPage,
-    ScoutingPage,
-    ResearchPage
+    GameScoutingPage,
+    ResearchPage,
+    FloorScoutingPage
   ],
   providers: [
     StatusBar,
