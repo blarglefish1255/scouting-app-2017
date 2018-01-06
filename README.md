@@ -4,6 +4,30 @@ This and others READMEs in the repo serve as living documents and the source of 
 
 ## Development
 
+## Standard Process
+
+```bash
+# Ensure that you are up-to-date
+git fetch
+
+# Reset master branch
+git reset --hard origin/master
+
+# Checkout a branch (include no spaces but instead use '-')
+git checkout -b "feature-being-added"
+
+# Add changes to branch
+git add "absolute/path/to/file"
+# Or add all changes
+git add .
+
+# Create a commit with what you the changes did
+git commit -m "what you changed goes here"
+
+# Push changes
+git push origin "feature-being-added"
+```
+
 ### Commits
 
 #### Format
