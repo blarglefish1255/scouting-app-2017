@@ -12,6 +12,8 @@ import { TheBlueAllianceServiceProvider } from '../providers/the-blue-alliance-s
 import { GameScoutingPage } from '../pages/game-scouting/game-scouting'
 import { ResearchPage } from '../pages/research/research'
 import { FloorScoutingPage } from '../pages/floor-scouting/floor-scouting'
+import { ManualPage } from '../pages/manual/manual'
+
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import { FloorScoutingPage } from '../pages/floor-scouting/floor-scouting'
     TabsPage,
     GameScoutingPage,
     ResearchPage,
-    FloorScoutingPage
+    FloorScoutingPage,
+    ManualPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import { FloorScoutingPage } from '../pages/floor-scouting/floor-scouting'
     TabsPage,
     GameScoutingPage,
     ResearchPage,
-    FloorScoutingPage
+    FloorScoutingPage,
+    ManualPage
   ],
   providers: [
     StatusBar,
